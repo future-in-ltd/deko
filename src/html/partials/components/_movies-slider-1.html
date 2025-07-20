@@ -1,0 +1,38 @@
+<div class="cdx-movies-slider-1-wrap">
+    <div class="container-1560 cdx-mb-80">
+        <div class="cdx-slider-header">
+            <h2 class="cdx-text-70 cdx-color-dark cdx-fw-500">Upcoming Movies.</h2>
+            <div class="cdx-navigation">
+                <div class="swiper-button-next cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></div>
+                <div class="swiper-button-prev cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon></div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper cdx-movies-slider-1">
+        <div class="swiper-wrapper">
+            <script>
+                for (let index = 1; index < 7; index++) {
+                    document.write(`
+                    <div class="swiper-slide">
+                <div class="cdx-movie-item-1">
+                    <a href="#" class="cdx-thumb-wrap">
+                        <img class="cdx-thumb" src="assets/images/movie-1/${index}.webp" alt="image" />
+                    </a>
+                    <div class="cdx-item-content">
+                        <div class="cdx-icon">
+                          <img class="dark" src="assets/images/movie-1/bookmark-dark.svg" alt="image" />
+                          <img class="light" src="assets/images/movie-1/bookmark-light.svg" alt="image" />
+                        </div>
+                        <div class="cdx-item-info">
+                            <p class="cdx-text-15 cdx-fw-500 cdx-color-dark cdx-mb-10">March 26, 2023</p>
+                            <h2><a class="cdx-text-26 cdx-fw-500 cdx-color-dark" href="#">Flight Risk</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    `);
+                }
+            </script>
+        </div>
+    </div>
+</div>

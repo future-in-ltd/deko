@@ -1,0 +1,202 @@
+@@include('../partials/_templateTop.html', { "bodyClass": "" })
+<!-- HEADER   -->
+@@include('../partials/components/_header-1.html')
+<main class="cdx-page-index-1">
+    <!-- BREADCRUMB  -->
+    @@include('../partials/components/_breadcrumb.html',{ "A": "Movie"})
+    <!-- MOVIES SLIDER AREA 3 -->
+    <section class="container-1560 cdx-pt-140 cdx-pb-120">
+        <div class="cdx-mb-40">
+            <h2 class="cdx-left-line cdx-text-30 cdx-color-dark cdx-fw-500">Trending Now</h2>
+        </div>
+        <div class="swiper cdx-movies-slider-3">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let i = 1; i < 10; i++) {
+                        document.write(
+                            `<div class="swiper-slide">
+                                <a href="movie-details.html" class="cdx-thumb-wrap">
+                                    <span class="cdx-badge-4">Features</span>
+                                    <img class="cdx-thumb" src="assets/images/movie-3/${i}.webp" alt="image" />
+                                </a>
+                             </div>`
+                        );
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOVIES SLIDER AREA 7 -->
+    <div class="cdx-pb-120">
+        <div class="swiper cdx-movies-slider-7">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let i = 1; i < 4; i++) {
+                        document.write(
+                            `<div class="swiper-slide">
+                                <div class="cdx-movies-item-7 cdx-pt-120 cdx-pb-120" style="background-image: url(assets/images/movie-7/${i}-b.webp)">
+                                    <div class="container-1560">
+                                        <div class="cdx-item-wrap">
+                                            <div class="cdx-thumb-wrap">
+                                                <img class="cdx-thumb" src="assets/images/movie-7/${i}.webp" alt="image" />
+                                            </div>
+                                            <div class="cdx-item-content">
+                                                <div class="cdx-mb-30">
+                                                    <h2 class="cdx-text-50 cdx-color-white cdx-fw-500">Minecraft</h2>
+                                                </div>
+                                                <div class="cdx-imbd-icon cdx-mb-20">
+                                                    <svg class="cdx-imbd-ratting" width="50" height="50" viewBox="0 0 50 50">
+                                                        <!-- Background Circle -->
+                                                        <circle cx="25" cy="25" r="20" class="cdx-imbd-circle" stroke-width="4" fill="none"></circle>
+                                                        <!-- Progress Circle -->
+                                                        <circle
+                                                            cx="25"
+                                                            cy="25"
+                                                            r="20"
+                                                            stroke="#4CAF50"
+                                                            stroke-width="4"
+                                                            fill="none"
+                                                            stroke-linecap="round"
+                                                            stroke-dasharray="125.6"
+                                                            stroke-dashoffset="31.4"
+                                                            transform="rotate(-90 25 25)"
+                                                        ></circle>
+                                                        <!-- Center Text -->
+                                                        <text
+                                                            x="50%"
+                                                            y="50%"
+                                                            text-anchor="middle"
+                                                            dominant-baseline="middle"
+                                                            font-size="10"
+                                                            fill="#fff"
+                                                            font-family="sans-serif"
+                                                            class="cdx-color-white cdx-fw-700 cdx-text-15"
+                                                        >
+                                                            7.5
+                                                        </text>
+                                                    </svg>
+                                                    <div class="cdx-imbd-icon">
+                                                        <img src="assets/images/hero-1/imbd-icon.svg" alt="icon" />
+                                                        <span class="cdx-color-white-8 cdx-fw-400 cdx-text-15">Rating</span>
+                                                    </div>
+                                                    <span class="cdx-text-15 cdx-color-white cdx-fw-600">2h 52m</span>
+                                                    <span class="cdx-badge-5">CC</span>
+                                                </div>
+                                                <div class="cdx-mb-50 cdx-description">
+                                                    <p class="cdx-text-20 cdx-color-white-8 cdx-fw-400">
+                                                        Nisi erat porttitor ligula, eget lacinia odio sem gravida at eget metus aeea eu leo pelletize Quique porta.
+                                                    </p>
+                                                </div>
+                                                <div>
+                                                    <a href="movie-details.html" class="cdx-btn-3">
+                                                        <span>More Info</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`
+                        );
+                    }
+                </script>
+            </div>
+            <div class="swiper-pagination cdx-mt-30"></div>
+        </div>
+    </div>
+
+    <!-- MOVIES SLIDER AREA 4 -->
+    <section class="container-1560 cdx-pb-120">
+        <div class="cdx-slider-header cdx-mb-40">
+            <h2 class="cdx-left-line cdx-text-30 cdx-color-dark cdx-fw-500">Top Rated Movies</h2>
+            <div class="cdx-navigation navigation-small">
+                <div
+                    class="swiper-button-next cdx-btn-icon-1 btn-small"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Next slide"
+                    aria-controls="swiper-wrapper-c60a9e1ceb628110a"
+                >
+                    <iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon>
+                </div>
+                <div
+                    class="swiper-button-prev cdx-btn-icon-1 btn-small"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Previous slide"
+                    aria-controls="swiper-wrapper-c60a9e1ceb628110a"
+                >
+                    <iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon>
+                </div>
+            </div>
+        </div>
+        <div class="swiper cdx-movies-slider-4">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let i = 1; i < 9; i++) {
+                        document.write(
+                            `<div class="swiper-slide">
+                                <a href="movie-details.html" class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/movie-4/${i}.webp" alt="image" />
+                                </a>
+                             </div>`
+                        );
+                    }
+                </script>
+            </div>
+
+            <div class="swiper-pagination cdx-mt-60"></div>
+        </div>
+    </section>
+
+    <!-- MOVIES SLIDER AREA 5 -->
+    <section class="cdx-pb-120">
+        <div class="cdx-mb-40">
+            <h2 class="cdx-text-60 text-center cdx-color-dark cdx-fw-500">Your favorite entertainment, always on!</h2>
+        </div>
+        <div class="swiper cdx-movies-slider-5">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let i = 1; i < 9; i++) {
+                        document.write(
+                            `<div class="swiper-slide">
+                                <a href="movie-details.html" class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/movie-5/${i}.webp" alt="image" />
+                                </a>
+                             </div>`
+                        );
+                    }
+                </script>
+            </div>
+            <div class="cdx-navigation">
+                <div class="swiper-button-next cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></div>
+                <div class="swiper-button-prev cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOVIES SLIDER AREA 6 -->
+    <section class="cdx-pb-120 container-1560">
+        <div class="cdx-mb-40">
+            <h2 class="cdx-text-30 cdx-color-dark cdx-fw-500">Available On :</h2>
+        </div>
+        <div class="swiper cdx-movies-slider-6">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let i = 1; i < 9; i++) {
+                        document.write(
+                            `<div class="swiper-slide">
+                                <a href="movie-details.html" class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/movie-6/${i}.webp" alt="image" />
+                                </a>
+                             </div>`
+                        );
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- END FOOTER AREA -->
+@@include('../partials/_templateBottom.html')

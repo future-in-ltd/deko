@@ -1,0 +1,129 @@
+// LAYOUT BREAKPOINTS
+$max: "only screen and (min-width: 1921px)";
+$xxl: "only screen and (max-width: 1599px)";
+$xl: "only screen and (max-width: 1400px)";
+$lg: "only screen and (max-width: 1199px)";
+$md: "only screen and (max-width: 991px)";
+$sm: "only screen and (max-width: 768px)";
+$xs: "only screen and (max-width: 575px)";
+$xxs: "only screen and (max-width: 390px)";
+
+// FONT FAMILY [ ROBOTO ]
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+$font-primary: "Roboto", sans-serif;
+
+:root {
+    --transition: all 0.5s;
+
+    // primary #FFC407
+    // hsla(46, 100%, 51%, 1)
+    --primary-h: 46;
+    --primary-s: 100%;
+    --primary-l: 51%;
+    --primary: var(--primary-h) var(--primary-s) var(--primary-l);
+
+    // white #FFFFFF
+    // hsla(0, 0%, 100%, 1)
+    --white-h: 0;
+    --white-s: 0%;
+    --white-l: 100%;
+    --white: var(--white-h) var(--white-s) var(--white-l);
+
+    // dark  #0A0909
+    // hsla(0, 5%, 4%, 1)
+    --dark-h: 0;
+    --dark-s: 5%;
+    --dark-l: 4%;
+    --dark: var(--dark-h) var(--dark-s) var(--dark-l);
+}
+
+.dark {
+    // white to dark #0A0909
+    // hsla(0, 0%, 100%, 1)
+    --dark-h: 0;
+    --dark-s: 0%;
+    --dark-l: 100%;
+    --dark: var(--dark-h) var(--dark-s) var(--dark-l);
+
+    // dark to white #FFFFFF
+    // to hsla(0, 5%, 4%, 1)
+    --white-h: 0;
+    --white-s: 5%;
+    --white-l: 4%;
+    --white: var(--white-h) var(--white-s) var(--white-l);
+}
+
+/*OVERRIDE BOOTSTRAP TABLE VARIABLE*/
+.table {
+    --bs-body-bg: hsl(var(--white));
+    --bs-table-color: hsl(var(--dark));
+    --bs-table-color-state: hsl(var(--dark));
+    --bs-border-color: hsl(var(--dark) / 0.14);
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: var(--dark);
+    font-weight: 400;
+    font-family: $font-primary;
+    background: hsl(var(--white));
+    font-size: clamp(14px, 0.9vw, 16px);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(var(--dark));
+    transition: var(--transition);
+    display: inline-block;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}

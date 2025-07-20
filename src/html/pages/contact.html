@@ -1,0 +1,46 @@
+@@include('../partials/_templateTop.html', { "bodyClass": "" })
+<!-- HEADER   -->
+@@include('../partials/components/_header-1.html')
+<main class="cdx-pt-100">
+    <!-- BREADCRUMB  -->
+    @@include('../partials/components/_breadcrumb.html',{ "A": "Contact Us"})
+    <!-- BLOGS 1 -->
+    <div class="container-1560 cdx-pt-140 cdx-pb-120">
+        <div class="cdx-contact-area">
+            <div class="cdx-contact-content"></div>
+            <div style="max-width: 745px" class="cdx-contact-form">
+                <form>
+                    <div class="cdx-form-2">
+                        <div class="cdx-form-grid">
+                            <div class="cdx-form-item">
+                                <label class="cdx-text-18 cdx-fw-500 cdx-color-dark cdx-mb-16" for="fname">Fast Name*</label>
+                                <input id="fname" type="text" class="cdx-input-1 cdx-rounded" placeholder="First name.. " />
+                            </div>
+                            <div class="cdx-form-item">
+                                <label class="cdx-text-18 cdx-fw-500 cdx-color-dark cdx-mb-16" for="lname">Last name..</label>
+                                <input id="lname" type="text" class="cdx-input-1 cdx-rounded" placeholder="Last name.. " />
+                            </div>
+                            <div class="cdx-form-item">
+                                <label class="cdx-text-18 cdx-fw-500 cdx-color-dark cdx-mb-16" for="email">Email</label>
+                                <input id="email" type="email" class="cdx-input-1 cdx-rounded" placeholder="Your email address.. " />
+                            </div>
+                            <div class="cdx-form-item">
+                                <label class="cdx-text-18 cdx-fw-500 cdx-color-dark cdx-mb-16" for="fname">Phone (Optional)</label>
+                                <input id="phone" type="text" class="cdx-input-1 cdx-rounded" placeholder="(000) 00 00 00" />
+                            </div>
+                        </div>
+                        <div class="cdx-form-item">
+                            <label class="cdx-text-18 cdx-fw-500 cdx-color-dark cdx-mb-16" for="fname">Message</label>
+                            <textarea rows="4" class="cdx-input-1 cdx-rounded" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <div class="cdx-form-action">
+                            <button type="submit" class="cdx-btn-3 btn-min-square"><span>Send Message</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- END FOOTER AREA -->
+@@include('../partials/_templateBottom.html')

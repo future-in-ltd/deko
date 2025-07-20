@@ -1,0 +1,114 @@
+@@include('../partials/_templateTop.html', { "bodyClass": "" })
+<!-- HEADER   -->
+@@include('../partials/components/_header-1.html')
+<main class="cdx-pt-120 cdx-mt-70">
+    <div>
+        <!-- NEWSLETTER FORM  -->
+        <div class="container cdx-pb-100">
+            <div class="cdx-bg-dark cdx-pt-50 cdx-pb-100 px-3 px-lg-5">
+                <h2 class="cdx-pb-20 text-decoration-underline cdx-color-white">Newsletter Form</h2>
+                <form>
+                    <div class="cdx-newsletter-1">
+                        <div class="cdx-mb-40">
+                            <h2 class="cdx-text-20 cdx-color-white cdx-fw-700">Newsletter Signup</h2>
+                        </div>
+                        <div class="cdx-subscribe-group cdx-mb-24">
+                            <input type="email" class="cdx-sub-input" placeholder="Enter your email" />
+                            <button type="submit" class="cdx-sub-btn"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></button>
+                        </div>
+                        <div class="cdx-agree-group">
+                            <div class="form-group">
+                                <input type="checkbox" id="agree" />
+                                <label for="agree" class="cdx-color-white-6 cdx-text-15 cdx-fw-500">
+                                    <span>I agree to the</span>
+                                    <a class="cdx-color-white text-decoration-underline" href="#">Privacy Policy.</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- CONTACT FORM   -->
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-md-6">
+                    <div class="cdx-pt-70 cdx-pb-70 px-3 px-lg-5 cdx-bg-white shadow">
+                        <div class="cdx-mb-30">
+                            <h2 class="cdx-text-16 cdx-color-dark cdx-fw-600 cdx-mb-16">Contact us now!</h2>
+                            <p class="cdx-color-dark cdx-text-32 cdx-fw-600">Request A Free Call Back.</p>
+                        </div>
+                        <form>
+                            <div class="contact-form-1">
+                                <div class="cdx-form-item">
+                                    <input autocomplete="off" id="name1" name="name" type="text" class="cdx-input-1" placeholder="Full Name" />
+                                </div>
+                                <div class="cdx-form-item">
+                                    <input autocomplete="off" id="email1" name="email" type="text" class="cdx-input-1" placeholder="Email Address" />
+                                </div>
+                                <div class="cdx-form-item">
+                                    <input autocomplete="off" id="phone" name="phone" type="text" class="cdx-input-1" placeholder="Phone Number" />
+                                </div>
+                                <div class="cdx-form-item">
+                                    <select class="cdx-select-1" name="select" id="select">
+                                        <option value="" disabled selected>Select</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 2</option>
+                                        <option value="">Option 3</option>
+                                    </select>
+                                </div>
+                                <div class="cdx-form-item">
+                                    <textarea
+                                        rows="4"
+                                        cols="30"
+                                        class="cdx-input-1"
+                                        placeholder="Case Details"
+                                        name="textarea"
+                                        id="message1"
+                                    ></textarea>
+                                </div>
+                                <div class="cdx-form-submit">
+                                    <button class="cdx-btn-3"><span>Send Messages</span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cdx-sidebar-card">
+                        <div class="cdx-mb-20">
+                            <h2 class="cdx-text-24 cdx-color-dark cdx-fw-600">Get In Touch</h2>
+                        </div>
+                        <form>
+                            <div class="contact-form-1">
+                                <div class="cdx-form-item">
+                                    <input autocomplete="off" id="name2" name="name" type="text" class="cdx-input-1" placeholder="Full Name" />
+                                </div>
+                                <div class="cdx-form-item">
+                                    <input autocomplete="off" id="email2" name="email" type="text" class="cdx-input-1" placeholder="Email Address" />
+                                </div>
+
+                                <div class="cdx-form-item">
+                                    <textarea
+                                        rows="4"
+                                        cols="30"
+                                        class="cdx-input-1"
+                                        placeholder="Case Details"
+                                        name="textarea"
+                                        id="message2"
+                                    ></textarea>
+                                </div>
+                                <div>
+                                    <button class="cdx-btn-3 btn-square"><span>Get in Touch</span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- END FOOTER AREA -->
+@@include('../partials/_templateBottom.html')

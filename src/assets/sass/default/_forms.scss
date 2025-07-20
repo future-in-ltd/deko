@@ -1,0 +1,161 @@
+/*  SUBSCRIBE GROUP */
+.cdx-subscribe-group {
+    display: flex;
+    align-items: stretch;
+    .cdx-sub-input {
+        font-size: clamp(14px, 0.9vw, 16px);
+        font-weight: 500;
+        color: hsl(var(--white));
+        background: transparent;
+        border: 1px solid hsl(var(--white) / 0.14);
+        width: 100%;
+        padding: 5px clamp(10px, 1.1vw, 20px);
+        &::placeholder {
+            color: hsl(var(--white) / 0.6);
+        }
+    }
+    .cdx-sub-btn {
+        color: hsl(var(--dark));
+        font-size: clamp(16px, 1.3vw, 24px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: clamp(40px, 2.4vw, 46px);
+        height: clamp(40px, 2.4vw, 46px);
+        background: hsl(var(--primary));
+        flex-shrink: 0;
+    }
+}
+
+/*  AGREE GROUP */
+.cdx-agree-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .form-group input {
+        padding: 0;
+        height: initial;
+        width: initial;
+        margin-bottom: 0;
+        display: none;
+        cursor: pointer;
+    }
+
+    .form-group label {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .form-group label:before {
+        content: "";
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 2px solid hsl(var(--white) / 0.14);
+        box-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.05),
+            inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 10px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .form-group input:checked + label:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: 9px;
+        width: 6px;
+        height: 14px;
+        border: solid hsl(var(--white));
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+}
+
+/*  INPUT 1 */
+.cdx-input-1 {
+    font-size: clamp(14px, 0.9vw, 16px);
+    font-weight: 500;
+    color: hsl(var(--dark));
+    background: transparent;
+    border: 1px solid hsl(var(--dark) / 0.14);
+    width: 100%;
+    padding: 10px clamp(10px, 1.1vw, 20px);
+    &::placeholder {
+        color: hsl(var(--dark) / 0.6);
+    }
+    &.cdx-rounded {
+        border-radius: 10px;
+    }
+}
+
+/*  SELECT 1 */
+.cdx-select-1 {
+    font-size: clamp(14px, 0.9vw, 16px);
+    font-weight: 500;
+    color: hsl(var(--dark));
+    background: transparent;
+    border: 1px solid hsl(var(--dark) / 0.14);
+    width: 100%;
+    padding: 10px clamp(10px, 1.1vw, 20px);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg fill='hsl(0, 0%25, 20%25)' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.25 7.5L10 12.25L14.75 7.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    option {
+        color: hsl(var(--dark));
+        background: hsl(var(--white));
+    }
+}
+
+/* FORM 1 */
+.contact-form-1 {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(10px, 0.9vw, 14px);
+
+    .cdx-form-submit {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* FORM 2 */
+.cdx-contact-form {
+    padding: clamp(20px, 2.7vw, 50px) clamp(18px, 1.6vw, 30px);
+    background: hsl(var(--dark) / 0.07);
+    border-radius: 0px 10px 10px 0px;
+}
+.cdx-form-2 {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(16px, 1.3vw, 24px);
+}
+.cdx-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(16px, 1.3vw, 24px);
+    @media #{$xs} {
+        grid-template-columns: 1fr;
+    }
+}
+.cdx-form-3 {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(14px, 1.1vw, 20px);
+}
+.cdx-form-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(14px, 1.1vw, 20px);
+    @media #{$xs} {
+        grid-template-columns: 1fr;
+    }
+}

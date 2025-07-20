@@ -1,0 +1,22 @@
+.cdx-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(10px, 0.7vw, 12px);
+    .cdx-btn-icon-1 {
+        width: clamp(36px, 2.7vw, 50px);
+        height: clamp(36px, 2.7vw, 50px);
+        font-size: clamp(14px, 0.9vw, 16px);
+        font-weight: 500;
+    }
+    .cdx-arrow-icon {
+        font-size: clamp(16px, 1.3vw, 24px);
+    }
+    .cdx-active {
+        &.cdx-btn-icon-1 {
+            color: hsl(var(--dark));
+            background: hsl(var(--primary));
+            border-color: hsl(var(--primary));
+        }
+    }
+}

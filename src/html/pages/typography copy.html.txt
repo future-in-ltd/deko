@@ -1,0 +1,417 @@
+@@include('../partials/_templateTop.html', { "bodyClass": "" })
+<!-- end header  -->
+<main class="main">
+    <!-- NAV LINKS  -->
+    @@include('../partials/components/_nav.html')
+    <!-- FONT WEIGHT -->
+    <section class="cdx-pb-120">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Text Color</h2>
+                    <div class="row gy-4">
+                        <div class="col-xl-6">
+                            <p class="cdx-color-primary cdx-text-30 cdx-fw-500">
+                                Primary
+                                <span class="cdx-text-15 cdx-fw-300 cdx-color-dark"><code>.cdx-color-primary</code></span>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-fw-500">
+                                Dark
+                                <span class="cdx-text-15 cdx-fw-300"><code>.cdx-color-dark</code></span>
+                            </p>
+                            <p class="cdx-color-dark-6 cdx-text-30 cdx-fw-500">
+                                Dark 6
+                                <span class="cdx-text-15 cdx-fw-300 cdx-color-dark"><code>.cdx-color-dark-6</code></span>
+                            </p>
+                        </div>
+                        <div class="col-xl-6">
+                            <p class="cdx-color-white cdx-text-30 cdx-fw-500">
+                                White
+                                <span class="cdx-text-15 cdx-fw-300 cdx-color-dark"><code>.cdx-color-white</code></span>
+                            </p>
+                            <p class="cdx-color-white-8 cdx-text-30 cdx-fw-500">
+                                White 8
+                                <span class="cdx-text-15 cdx-fw-300 cdx-color-dark"><code>.cdx-color-white-8</code></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Background Color</h2>
+                    <div class="d-flex gap-2 flex-wrap">
+                        <div
+                            class="cdx-bg-dark"
+                            style="padding: 10px 20px; height: 100px; display: flex; justify-content: center; align-items: center"
+                        >
+                            <p class="cdx-color-white"><code>.cdx-bg-dark</code></p>
+                        </div>
+                        <div
+                            class="cdx-bg-primary"
+                            style="padding: 10px 20px; height: 100px; display: flex; justify-content: center; align-items: center"
+                        >
+                            <p class="cdx-color-white"><code>.cdx-bg-primary</code></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FONT WEIGHT -->
+    <section class="cdx-pb-120">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Font Weights</h2>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-900">
+                        Font Weight 900
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-900</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-800">
+                        Font Weight 800
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-800</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-700">
+                        Font Weight 700
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-700</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-600">
+                        Font Weight 600
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-600</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-500">
+                        Font Weight 500
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-500</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-400">
+                        Font Weight 400
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-400</code></span>
+                    </p>
+                    <p class="cdx-color-dark cdx-text-30 cdx-fw-300">
+                        Font Weight 300
+                        <span class="cdx-text-15 cdx-fw-300"><code>.cdx-fw-300</code></span>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="cdx-mb-40">
+                        <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Font Family Classes</h2>
+                        <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                            <code>.cdx-font-primary</code>
+                            — The quick brown fox jumps over the lazy dog
+                        </p>
+                    </div>
+                    <div>
+                        <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">ICONIFY ICONS</h2>
+                        <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                            <code>https://icon-sets.iconify.design/</code>
+                        </p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="iconoir:plus"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="famicons:bookmark-sharp"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="solar:share-circle-outline"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="iconamoon:shield-yes-thin"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="streamline-ultimate:wifi-signal-2"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="pepicons-pencil:television-play"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="pepicons-pencil:electricity"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="carbon:satellite-radar"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="ic:round-android"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="streamline:play-store-solid"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon>
+                            </p>
+                            <p class="cdx-color-dark cdx-text-30 cdx-font-primary">
+                                <iconify-icon icon="bi:arrow-right"></iconify-icon>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUTTONS  -->
+    <section id="buttons" class="cdx-pb-120">
+        <div class="container">
+            <div class="row gy-4 align-items-center">
+                <div class="col-12">
+                    <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Buttons</h2>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-3">
+                    <div class="cdx-bg-dark cdx-pt-20 cdx-pb-20 px-3">
+                        <div class="d-flex flex-column">
+                            <button class="cdx-btn-1">
+                                <span>Button 1</span>
+                                <span class="cdx-arrow"><iconify-icon icon="bi:arrow-right"></iconify-icon></span>
+                            </button>
+                            <p class="cdx-color-white mt-1"><code>.cdx-btn-1</code></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-2">
+                            <span>Get It Now</span>
+                            <span class="cdx-arrow"><iconify-icon icon="ph:arrow-right"></iconify-icon></span>
+                        </button>
+                        <p class="cdx-color-dark mt-1"><code>.cdx-btn-2</code></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-3">View More Details</button>
+                    </div>
+                    <p class="cdx-color-dark mt-1"><code>.cdx-btn-3</code></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-3">
+                            <span><iconify-icon icon="streamline:play-store-solid"></iconify-icon></span>
+                            <span>Google Play</span>
+                        </button>
+                        <p class="cdx-color-dark mt-1"><code>.cdx-btn-3</code></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-3 btn-square">
+                            <span><iconify-icon icon="streamline:play-store-solid"></iconify-icon></span>
+                            <span>Google Play</span>
+                        </button>
+                        <p class="cdx-color-dark mt-1">
+                            <code>.cdx-btn-3 .btn-square</code>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-3 btn-outline">
+                            <span class="icon-lg"><iconify-icon icon="ic:round-android"></iconify-icon></span>
+                            <span>Android APk</span>
+                        </button>
+                        <p class="cdx-color-dark mt-1">
+                            <code>.cdx-btn-3 .btn-outline .icon-lg</code>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-xl-2">
+                    <div class="d-flex flex-column">
+                        <button class="cdx-btn-3 btn-square btn-outline">Outline Button</button>
+                        <p class="cdx-color-dark mt-1">
+                            <code>.cdx-btn-3 .btn-square .btn-outline</code>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-xl-3">
+                    <div class="d-flex gap-2">
+                        <button class="cdx-btn-icon-1">
+                            <iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon>
+                        </button>
+                        <button class="cdx-btn-icon-1">
+                            <iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon>
+                        </button>
+                        <button class="cdx-btn-icon-1 btn-small">
+                            <iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon>
+                        </button>
+                        <button class="cdx-btn-icon-1 btn-small">
+                            <iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon>
+                        </button>
+                    </div>
+                    <p class="cdx-color-dark mt-1">
+                        <code>.cdx-btn-icon-1</code>
+                        <code>.btn-small</code>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FONT SIZE  -->
+    <section class="container-1920 cdx-pb-120">
+        <div class="container">
+            <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Font Size Classes</h2>
+            <code>1 rem = 10px</code>
+
+            <div class="table-responsive">
+                <table class="table" style="vertical-align: middle; white-space: nowrap">
+                    <thead>
+                        <tr>
+                            <th>Class Name</th>
+                            <th>Min</th>
+                            <th>VW</th>
+                            <th>Max</th>
+                            <th>Starts At (px)</th>
+                            <th>Ends At (px)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="font-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            const fontSizes = {
+                15: "clamp(1.3rem, 0.9vw, 1.5rem)",
+                16: "clamp(1.4rem, 0.9vw, 1.6rem)",
+                18: "clamp(1.5rem, 1vw, 1.8rem)",
+                20: "clamp(1.5rem, 1.1vw, 2rem)",
+                24: "clamp(1.6rem, 1.3vw, 2.4rem)",
+                26: "clamp(1.6rem, 1.4vw, 2.6rem)",
+                30: "clamp(1.8rem, 1.6vw, 3rem)",
+                32: "clamp(1.8rem, 1.8vw, 3.2rem)",
+                44: "clamp(2rem, 2.4vw, 4.4rem)",
+                50: "clamp(2rem, 2.7vw, 5rem)",
+                60: "clamp(2rem, 3.2vw, 6rem)",
+                70: "clamp(2.5rem, 3.8vw, 7rem)",
+                120: "clamp(4rem, 6.5vw, 12rem)"
+            };
+
+            const tableBody2 = document.getElementById("font-table-body");
+            const remToPx2 = (rem) => rem * 10; // 1rem = 10px
+
+            for (const [key, clampValue] of Object.entries(fontSizes)) {
+                const match = clampValue.match(/clamp\(([^,]+),\s*([^,]+),\s*([^)]+)\)/);
+                if (!match) continue;
+
+                let [_, minRaw, vwRaw, maxRaw] = match;
+
+                const parseRem = (val) => parseFloat(val.replace("rem", ""));
+                const parseVw = (val) => parseFloat(val.replace("vw", ""));
+
+                const minRem = parseRem(minRaw);
+                const maxRem = parseRem(maxRaw);
+                const vw = parseVw(vwRaw);
+
+                const minPx = remToPx2(minRem);
+                const maxPx = remToPx2(maxRem);
+
+                const minScreen = Math.round((minPx / vw) * 100);
+                const maxScreen = Math.round((maxPx / vw) * 100);
+
+                const row = document.createElement("tr");
+                row.innerHTML = `
+            <td><code>.cdx-text-${key}</code> <span class="cdx-color-dark cdx-text-${key}">Text ${key}</span></td>
+            <td>${minPx}px = ${minRem}rem</td>
+            <td>${vw}vw</td>
+            <td>${maxPx}px = ${maxRem}rem</td>
+            <td>${minScreen}px</td>
+            <td>${maxScreen}px</td>
+        `;
+                tableBody2.appendChild(row);
+            }
+        </script>
+    </section>
+
+    <!-- SPACING  -->
+    <section class="container-1920">
+        <div class="container">
+            <h2 class="cdx-pb-20 text-decoration-underline cdx-color-dark">Spacing Classes</h2>
+            <code>1 rem = 10px</code>
+
+            <div class="table-responsive">
+                <table class="table" style="vertical-align: middle; white-space: nowrap">
+                    <thead>
+                        <tr>
+                            <th>Class Name</th>
+                            <th>Min</th>
+                            <th>VW</th>
+                            <th>Max</th>
+                            <th>Starts At (px)</th>
+                            <th>Ends At (px)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spacing-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            const spacingValues = {
+                4: "clamp(0.3rem, 0.3vw, 0.4rem)",
+                8: "clamp(0.6rem, 0.5vw, 0.8rem)",
+                10: "clamp(0.8rem, 0.6vw, 1rem)",
+                12: "clamp(1rem, 0.7vw, 1.2rem)",
+                14: "clamp(1rem, 0.8vw, 1.4rem)",
+                16: "clamp(1rem, 0.9vw, 1.6rem)",
+                18: "clamp(1.2rem, 1vw, 1.8rem)",
+                20: "clamp(1.4rem, 1.1vw, 2rem)",
+                22: "clamp(1.6rem, 1.2vw, 2.2rem)",
+                24: "clamp(1.6rem, 1.3vw, 2.4rem)",
+                26: "clamp(1.8rem, 1.4vw, 2.6rem)",
+                28: "clamp(1.8rem, 1.5vw, 2.8rem)",
+                30: "clamp(1.8rem, 1.6vw, 3rem)",
+                40: "clamp(2rem, 2.2vw, 4rem)",
+                50: "clamp(2rem, 2.7vw, 5rem)",
+                60: "clamp(2rem, 3.2vw, 6rem)",
+                70: "clamp(2.4rem, 3.8vw, 7rem)",
+                80: "clamp(3rem, 4.5vw, 8rem)",
+                100: "clamp(4rem, 5.5vw, 10rem)",
+                120: "clamp(4rem, 7vw, 12rem)",
+                140: "clamp(5rem, 7.5vw, 14rem)",
+                160: "clamp(5rem, 8.5vw, 16rem)"
+            };
+
+            const variants = ["cdx-mt", "cdx-mb", "cdx-pt", "cdx-pb"];
+            const tableBody = document.getElementById("spacing-table-body");
+
+            const remToPx = (rem) => rem * 10; // 1rem = 10px (custom scale)
+
+            for (const [key, clampValue] of Object.entries(spacingValues)) {
+                const match = clampValue.match(/clamp\(([^,]+),\s*([^,]+),\s*([^)]+)\)/);
+                if (!match) continue;
+
+                let [_, minRaw, vwRaw, maxRaw] = match;
+
+                const parseRem = (val) => parseFloat(val.replace("rem", ""));
+                const parseVw = (val) => parseFloat(val.replace("vw", ""));
+
+                const minRem = parseRem(minRaw);
+                const maxRem = parseRem(maxRaw);
+                const vw = parseVw(vwRaw);
+
+                const minPx = remToPx(minRem);
+                const maxPx = remToPx(maxRem);
+
+                const minScreen = Math.round((minPx / vw) * 100);
+                const maxScreen = Math.round((maxPx / vw) * 100);
+
+                variants.forEach((variant) => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                <td><code>.${variant}-${key}</code></td>
+                <td>${minPx}px = ${minRem}rem</td>
+                <td>${vw}vw</td>
+                <td>${maxPx}px = ${maxRem}rem</td>
+                <td>${minScreen}px</td>
+                <td>${maxScreen}px</td>
+            `;
+                    tableBody.appendChild(row);
+                });
+            }
+        </script>
+    </section>
+</main>
+<!-- END FOOTER AREA  -->
+@@include('../partials/_templateBottom.html')

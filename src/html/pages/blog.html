@@ -1,0 +1,63 @@
+@@include('../partials/_templateTop.html', { "bodyClass": "" })
+<!-- HEADER   -->
+@@include('../partials/components/_header-1.html')
+<main class="cdx-pt-100">
+    <!-- BREADCRUMB  -->
+    @@include('../partials/components/_breadcrumb.html',{ "A": "Our Blog"})
+    <!-- BLOGS 1 -->
+    <div class="container-1560 cdx-pt-140 cdx-pb-120">
+        <div class="cdx-blogs-1">
+            <script>
+                for (let i = 1; i < 10; i++) {
+                    document.write(
+                        `<div class="cdx-blog-item-1">
+                            <div class="cdx-item-wrap">
+                                <div class="cdx-item-content">
+                                    <div class="cdx-item-meta cdx-mb-40">
+                                        <span class="cdx-badge-2">Safe Browsing</span>
+                                        <span class="cdx-text-16 cdx-color-dark-6 cdx-fw-500">06 Min</span>
+                                    </div>
+                                    <h2 class="cdx-text-30 cdx-color-dark cdx-fw-500">
+                                        <a class="cdx-hover-line" href="blog-details.html">Deko ISP Installation Guide for iPhone & Apple TV.</a>
+                                    </h2>
+                                </div>
+                                <div class="cdx-item-meta-2">
+                                    <div class="cdx-date">
+                                        <span class="cdx-text-24 cdx-color-dark-6">
+                                            <iconify-icon icon="stash:data-date-light"></iconify-icon>
+                                        </span>
+                                        <span class="cdx-text-15 cdx-color-dark-6 cdx-fw-500">March 22, 2025</span>
+                                    </div>
+                                    <button class="cdx-btn-4">
+                                        <span>Read More</span>
+                                        <span class="cdx-arrow"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <a href="blog-details.html" class="cdx-thumb-wrap">
+                                <img class="cdx-thumb" src="assets/images/blog-1/${i}.webp" alt="image" />
+                            </a>
+                        </div>`
+                    );
+                }
+            </script>
+        </div>
+        <ul class="cdx-pagination">
+            <li>
+                <a href="#" class="cdx-btn-icon-1 cdx-arrow-icon">
+                    <iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon>
+                </a>
+            </li>
+            <li><a href="#" class="cdx-btn-icon-1 cdx-active">01</a></li>
+            <li><a href="#" class="cdx-btn-icon-1">02</a></li>
+            <li><a href="#" class="cdx-btn-icon-1">03</a></li>
+            <li>
+                <a href="#" class="cdx-btn-icon-1 cdx-arrow-icon">
+                    <iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon>
+                </a>
+            </li>
+        </ul>
+    </div>
+</main>
+<!-- END FOOTER AREA -->
+@@include('../partials/_templateBottom.html')

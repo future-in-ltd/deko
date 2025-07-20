@@ -1,0 +1,50 @@
+<div class="cdx-news-slider-1-wrap">
+    <div class="container-1560 cdx-mb-80">
+        <div class="cdx-slider-header">
+            <h2 class="cdx-text-70 cdx-color-dark cdx-fw-500">Latest News & Article</h2>
+            <div class="cdx-navigation">
+                <div class="swiper-button-next cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></div>
+                <div class="swiper-button-prev cdx-btn-icon-1"><iconify-icon icon="iconamoon:arrow-left-1-duotone"></iconify-icon></div>
+            </div>
+        </div>
+    </div>
+    <div class="cdx-news-slider-1-container container-1920">
+        <div class="swiper cdx-news-slider-1">
+            <div class="swiper-wrapper">
+                <script>
+                    for (let index = 1; index < 6; index++) {
+                        document.write(`
+                         <div class="swiper-slide">
+                            <div class="cdx-news-item-1">
+                                <div class="cdx-item-content">
+                                    <div class="cdx-meta cdx-mb-30">
+                                        <span class="cdx-badge-2">Articles</span>
+                                        <div class="cdx-date">
+                                            <span class="cdx-text-24 cdx-color-dark-6">
+                                                <iconify-icon icon="stash:data-date-light"></iconify-icon>
+                                            </span>
+                                            <span class="cdx-text-15 cdx-color-dark-6 cdx-fw-500">March 22, 2025</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="cdx-text-26 cdx-color-dark cdx-fw-500 cdx-mb-60">
+                                            <a class="cdx-hover-line" href="#">Recent Updates on The Economic and Digital Landscape.</a>
+                                        </h3>
+                                        <a href="#" class="cdx-btn-4">
+                                            <span>Read More</span>
+                                            <span class="cdx-arrow"><iconify-icon icon="iconamoon:arrow-right-1-duotone"></iconify-icon></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cdx-thumb-wrap">
+                                    <img class="cdx-thumb" src="assets/images/news-1/news-${index}.webp" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                        `);
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
